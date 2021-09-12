@@ -15,7 +15,7 @@ h1{
   }
 
 .section {
-      background-color: #999999;
+      background-color: lightblue;
       border: 5px solid black;
       margin-right: 30px;
       margin-left: 30px;
@@ -35,16 +35,16 @@ h1{
 
 .description{
     padding: 10px;
-    padding-top: 25px;
+    padding-top: 30px;
     margin:10px;
  }
 
 #title1{
-        background-color: #D59898;
+        background-color: lightpink;
  }
 
 #title2{
-    background-color: #C14543;
+    background-color: #ce6b69;
  }
 
 #title3{
