@@ -1,85 +1,92 @@
-/***********base styles - mobile first****************/
+/***********for mobile****************/
 
-* {
+*{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Comic Sans MS',  Helvetica, Arial, sans-serif;
-    font-weight: bold;
+    font-family: Arial;
     position: relative;
 }
 
-    h1 {
-        text-align: center;
-        margin-bottom: 30px;
-    }
-    .section {
-      background-color: #999999;
-      border: 3px solid;
-      margin-right: 50px;
-      margin-left: 50px;
-      margin-bottom: 20px;
-    }
+h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
 
-    .title {
+.section {
+      background-color: #999999;
+      border: 5px solid black;
+      margin-right: 30px;
+      margin-left: 30px;
+      margin-bottom: 20px;
+  }
+
+.title {
     width: 120px;
     text-align: center;
-    border-left: 3px solid;
-    border-bottom: 3px solid;
+    font-weight: bold;
+    font-style: italic;
+    border-left: 5px solid;
+    border-bottom: 5px solid;
     padding: 5px;
     float: right;
-   }
+ }
 
-    .description{
-    padding: 5px;
-    padding-top: 15px;
+.description{
+    padding: 10px;
+    padding-top: 25px;
     margin:10px;
+ }
 
-    }
-    #title1{
+#title1{
         background-color: #D59898;
-    }
-   #title2{
+ }
+
+#title2{
     background-color: #C14543;
-   }
-   #title3{
+ }
+
+#title3{
        background-color: #E5D198;
-   }
+ }
 
 
-   /*******medium device only************/
-   @media(min-width: 768px) and (max-width: 991px){
-      h1{ width:90%;
-          left: 35px;
-      }
-     .section{
-         margin:0px;
-         margin-bottom: 5%;
-         width: 40%;
-         float: left;
-         left: 35px;
-     }
+/*******for medium devices************/
 
-     #section3{
-         clear: both;
-         width: 90%;
+@media(min-width: 768px) and (max-width: 991px){
+h1{
+  width:90%;
+  left: 35px;
+  }
 
-     }
-     #section1{
-         margin-right: 10%;
-     }
+.section{
+        margin:0px;
+        margin-bottom: 5%;
+        width: 40%;
+        float: left;
+        left: 35px;
+  }
 
-   }
+#section3{
+        clear: both;
+        width: 90%;
+  }
 
-          /*******large device only************/
-          @media(min-width: 992px) {
+#section1{
+        margin-right: 10%;
+  }
 
-      .section{
-          margin:0px;
-          margin-right:2% ;
-          width:30%;
-          float:left;
-      }
-      #section1{margin-left: 2%;}
+  }
 
-  } 
+/*******for larger devices************/
+@media(min-width: 992px){
+.section{
+        margin:0px;
+        margin-right:2% ;
+        width:30%;
+        float:left;
+  }
+
+#section1{margin-left: 2%;}
+  }
